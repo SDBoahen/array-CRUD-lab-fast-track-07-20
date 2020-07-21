@@ -14,8 +14,8 @@ def
   create_an_array
   
   array =
-  [
-    "y'all", "said", "some", "data" 
+  [ #"y'all", "said", "some", "data"  >:T lol
+    "wow", "i", "am", "an"
   ]
   
   
@@ -74,6 +74,8 @@ def
   
   puts "#{array[index_number]}"
   
+  array[index_number]
+  
 end
 
 
@@ -85,6 +87,8 @@ def
   
   puts "#{array[0]}"
   
+  array[0]
+  
 end
 
 
@@ -95,6 +99,8 @@ def
   retrieve_last_element_from_array(array)
   
   puts "#{array[(array.size-1)]}"
+  
+  array[(array.size-1)]
   
 end
 
