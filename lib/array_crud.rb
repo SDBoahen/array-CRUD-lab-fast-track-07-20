@@ -39,7 +39,7 @@ def
   
   add_element_to_start_of_array(array, element)
   
-  array.unshift
+  array.unshift("front")
   
 end
 
@@ -49,6 +49,8 @@ end
 def 
   
   remove_element_from_end_of_array(array)
+  
+  array.pop()
   
 end
 
